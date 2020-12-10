@@ -1,7 +1,4 @@
 
-  //create an empty array called ballsq
-
-//create a variable to hold your avatar
 let me;
 let deer;
 
