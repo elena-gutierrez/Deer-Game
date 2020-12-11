@@ -4,8 +4,16 @@ function setup() {
 
 function draw() {
   background("white");
-  forrest }
+  forrest ()
+keyPressed ()
+}
 
+function keyPressed(){
+  let s = 'You have been separated from your fellow deer! Where are you? Find keys to find your way back!';
+fill(50);
+text(s, 220, 100, 200, 100); // Text wraps within text box
+
+}
   function forrest() {
     //the color of the leaves on the trees (green)
     let leaf = color(125, 209, 117);

@@ -2,7 +2,7 @@ function setup() {
   createCanvas(600, 600);
 }
 
-function draw() {
+function forrest() {
   //the color of the leaves on the trees (green)
   let leaf = color(125, 209, 117);
   //another color for the leaves (orange)
