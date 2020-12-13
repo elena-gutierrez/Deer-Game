@@ -17,10 +17,11 @@ stage=1;
 }
 
 function draw() {
-  background("white");
 
   if (stage == 1) {
     stageone();
+    me.getKey();
+
     me.drawdeer();
     me.moveMe();
       keys()
@@ -138,6 +139,16 @@ class Avatar {
       this.x += this.speed
     }
 	}
+  getKey() {
+    if(this.x >= 400
+      && this.x <= 600
+      && this.y >= 300
+      && this.y <= 600) {
+
+      stage = 2;
+    }
+  }
+
  }
  class Particle1 {
 
@@ -322,8 +333,6 @@ class Avatar {
  function keyPressed(){
    if (key == '1') {
     stage = 1;
-  }else if (key == '2') {
-    stage = 2;
   }else if (key == '3') {
     stage = 3;
   }else if (key == '4') {
