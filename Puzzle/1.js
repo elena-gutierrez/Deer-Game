@@ -12,6 +12,7 @@ function preload() {
 
 function setup() {
   createCanvas(600, 600);
+  son
   song.play();
 stage=1;
   loadImage('capture.png');
