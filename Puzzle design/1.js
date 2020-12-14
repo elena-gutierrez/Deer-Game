@@ -2,14 +2,17 @@
 let me;
 let deer;
 var stage;
+var song;
 particles1 = [];
 particles2 = [];
 function preload() {
   deer = loadImage('capture.png');
+    song= loadSound("music.mp3");
 }
 
 function setup() {
   createCanvas(600, 600);
+  song.play();
 stage=1;
   loadImage('capture.png');
     me = new Avatar(width/2, 300, 3);
