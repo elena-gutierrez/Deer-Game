@@ -333,6 +333,48 @@ class Avatar {
    textSize(50)
    text("GAME OVER...",150,200)
  }
+function stagefive(){
+  let leaf = color(38, 101, 97);
+  let leaf2 = color(38, 101, 97)
+  let leaf3 = color(200, 165, 43)
+  let leaf4 = color(55, 107, 205)
+  let leaf5 = color(222, 111, 101)
+  let leaf6 = color(12, 56, 107)
+let trunk = color(161, 111, 84);
+  let coo = color(255,255,255)
+  background(121,192,252);
+ tree(20,305,110, 80,trunk,leaf);
+  tree(110,310,110, 60,trunk,leaf2);
+  tree(200,330,110, 20,trunk,leaf4);
+  tree(290,360,110, 200,trunk,leaf);
+  tree(380,320,110, 80,trunk,leaf3);
+  tree(470,290,110, 80,trunk,leaf6);
+  tree(560,335,110, 80,trunk,leaf5);
+  fill(119, 214, 92);
+  rect(0,570,600,30);
+  fill(0, 187, 250)
+  rect(200,570,300,30);
+  fill(255, 255, 255);
+  cloud(30,40,"ye;;lo")
+  cloud(100,80,coo)
+  cloud(170,40,coo)
+  cloud(240,80,coo)
+  cloud(310,40,coo)
+  cloud(380, 80,coo)
+  cloud(450,40,coo)
+  cloud(520,80,coo)
+  cloud(590, 40, coo)
+  noStroke()
+  fill(237, 229, 0)
+  strokeWeight(2)
+ellipse(450, 550, 35, 45);
+  fill('white')
+ellipse(450,550,15,25)
+  fill(237, 229, 0)
+  rect(465, 540, 75, 15)
+  rect(480, 555, 15, 25)
+  rect(510, 555, 15, 25)
+}
 
  function keyPressed(){
    if (key == '1') {
