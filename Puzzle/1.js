@@ -189,7 +189,7 @@ getKeypt3() {
     stage = 7;
   }
 }
-
+}
 
  class Particle1 {
 
