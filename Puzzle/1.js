@@ -433,6 +433,44 @@ let trunk = color(105, 73, 55);
   textSize(50)
   text("GAME OVER...",150,200)
 }
+function stageseven(){
+  let leaf = color(125, 209, 117);
+  let leaf2 = color(252, 208, 73)
+  let leaf3 = color(171, 7, 62)
+  let leaf4 = color(73, 171, 7)
+  let leaf5 = color(174, 230, 46)
+  let leaf6 = color(190, 73, 128)
+let trunk = color(161, 111, 84);
+  let coo = color(255,255,255)
+  background(121, 192, 252);
+ tree(20,305,110, 80,trunk,leaf);
+  tree(110,310,110, 60,trunk,leaf2);
+  tree(200,330,110, 20,trunk,leaf4);
+  tree(290,360,110, 200,trunk,leaf);
+  tree(380,320,110, 80,trunk,leaf3);
+  tree(470,290,110, 80,trunk,leaf6);
+  tree(560,335,110, 80,trunk,leaf5);
+  fill(119, 214, 92);
+  rect(0,570,600,30);
+  fill(0, 187, 250)
+  rect(200,570,300,30);
+  fill(255, 255, 255);
+  cloud(30,40,"ye;;lo")
+  cloud(100,80,coo)
+  cloud(170,40,coo)
+  cloud(240,80,coo)
+  cloud(310,40,coo)
+  cloud(380, 80,coo)
+  cloud(450,40,coo)
+  cloud(520,80,coo)
+  cloud(590, 40, coo)
+  textFont('Tahoma')
+  textSize(29.5)
+  fill('white')
+  text("YOU MADE IT BACK TO YOUR HERD!",1,150)
+  textSize(50)
+  text("THANKS FOR PLAYING :)",150,200)
+}
 
  function keyPressed(){
    if (key == '1') {
