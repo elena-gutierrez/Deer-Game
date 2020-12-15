@@ -125,7 +125,7 @@ class Avatar {
 	}
 
 	drawdeer(){
-    image(deer,this.x,this.y)
+    image(deer,this.x,this.y,100,100)
 	}
 
 	moveMe(){
@@ -153,6 +153,15 @@ class Avatar {
     }
   }
 
+getKeypt2(){
+if(this.x)>=
+&& this.x<=
+&& this.y <=
+&& this.y <=){
+
+  stage=5
+}
+}
  }
  class Particle1 {
 
