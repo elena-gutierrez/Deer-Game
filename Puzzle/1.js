@@ -118,7 +118,7 @@ function keys(){
   fill(237, 229, 0)
   strokeWeight(2)
 ellipse(450, 550, 35, 45);
-  fill('white')
+  fill(121, 192, 252)
 ellipse(450,550,15,25)
   fill(237, 229, 0)
   rect(465, 540, 75, 15)
@@ -302,7 +302,7 @@ if(this.x>= 0
    fill(237, 229, 0)
    strokeWeight(2)
  ellipse(50, 550, 35, 45);
-   fill('white')
+   fill(121, 192, 252)
  ellipse(50,550,15,25)
    fill(237, 229, 0)
    rect(65, 540, 75, 15)
@@ -387,12 +387,16 @@ let trunk = color(161, 111, 84);
   fill(237, 229, 0)
   strokeWeight(2)
 ellipse(450, 550, 35, 45);
-  fill('white')
+  fill(121, 192, 252)
 ellipse(450,550,15,25)
   fill(237, 229, 0)
   rect(465, 540, 75, 15)
   rect(480, 555, 15, 25)
   rect(510, 555, 15, 25)
+  textFont('Tahoma')
+  textSize(30)
+  fill('white')
+  text("ESCAPE THE WOLF AND GET THE KEY!",30,150)
 
 }
 function stagesix(){
