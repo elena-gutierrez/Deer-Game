@@ -388,6 +388,9 @@ ellipse(450,550,15,25)
   rect(465, 540, 75, 15)
   rect(480, 555, 15, 25)
   rect(510, 555, 15, 25)
+  drawwolf(){
+    image(wolf,300,500,100,100)
+	}
 
 }
 function stagesix(){
