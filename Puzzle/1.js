@@ -179,6 +179,7 @@ if(this.x>= 0
 
   stage=5
 }
+}
 getKeypt3() {
   if(this.x >= 400
     && this.x <= 600
@@ -187,8 +188,7 @@ getKeypt3() {
 
     stage = 7;
   }
-}
- }
+
  class Particle1 {
 
   constructor() {
