@@ -187,7 +187,8 @@ getKeypt3() {
     && this.y <= 600) {
 
     stage = 7;
-  }}
+  }
+}
 
  class Particle1 {
 
