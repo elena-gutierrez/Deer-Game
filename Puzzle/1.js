@@ -48,7 +48,7 @@ function draw() {
     stagefive();
     me.drawdeer();
     me.moveMe();
-    wolf();
+    wolfs();
   }
   }
 
@@ -91,8 +91,8 @@ function draw() {
   text(s, 50, 100, 500, 500); // Text wraps within text box
 
   }
-  function wolf(){
-    image(wolf, 100,100)
+  function wolfs(){
+    image(wolf, 190,420,300,200)
   }
   function cloud(x,y,somecolor) {
     strokeWeight(0)
