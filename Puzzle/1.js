@@ -88,6 +88,10 @@ function draw() {
   text(s, 50, 100, 500, 500); // Text wraps within text box
 
   }
+  function wolf(x,y){
+    loadImage('wolf.png')
+
+  }
 
   function cloud(x,y,somecolor) {
     strokeWeight(0)
@@ -388,10 +392,7 @@ ellipse(450,550,15,25)
   rect(465, 540, 75, 15)
   rect(480, 555, 15, 25)
   rect(510, 555, 15, 25)
-  drawwolf(){
-    image(wolf,300,500,100,100)
-	}
-
+  drawwolf(300,500)
 }
 function stagesix(){
   let leaf = color(120, 143, 126);
