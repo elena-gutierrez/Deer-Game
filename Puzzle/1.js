@@ -8,6 +8,7 @@ particles2 = [];
 function preload() {
   deer = loadImage('capture.png');
     song= loadSound("music.mp3");
+    wolf= loadImage('wolf.png');
 }
 
 function setup() {
@@ -374,6 +375,7 @@ ellipse(450,550,15,25)
   rect(465, 540, 75, 15)
   rect(480, 555, 15, 25)
   rect(510, 555, 15, 25)
+
 }
 function stagesix(){
   let leaf = color(120, 143, 126);
@@ -408,7 +410,7 @@ let trunk = color(105, 73, 55);
   cloud(590, 40, coo)
   textFont('Tahoma')
   textSize(29.5)
-  fill('white')
+  fill('red')
   text("YOU WERE EATEN BY THE WOLF.",1,150)
   textSize(50)
   text("GAME OVER...",150,200)
