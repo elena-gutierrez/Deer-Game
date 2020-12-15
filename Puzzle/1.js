@@ -16,7 +16,7 @@ function setup() {
 
 stage=1;
   loadImage('capture.png');
-    me = new Avatar(width/2, 300, 3);
+    me = new Avatar(width/2, 500, 3);
 
 }
 
@@ -25,7 +25,6 @@ function draw() {
   if (stage == 1) {
     stageone();
     me.getKey();
-
     me.drawdeer();
     me.moveMe();
       keys()
@@ -35,10 +34,15 @@ function draw() {
     me.moveMe();
     } else if (stage==3) {
     stagethree();
+    me.getKeypt2();
     me.drawdeer();
     me.moveMe();
     } else if (stage==4){
     stagefour();
+    me.drawdeer();
+    me.moveMe();
+  }else if (stage==5){
+    stagefive();
     me.drawdeer();
     me.moveMe();
   }
@@ -154,10 +158,10 @@ class Avatar {
   }
 
 getKeypt2(){
-if(this.x)>=
-&& this.x<=
-&& this.y <=
-&& this.y <=){
+if(this.x>= 0
+&& this.x<= 100
+&& this.y <=500
+&& this.y <=600){
 
   stage=5
 }
