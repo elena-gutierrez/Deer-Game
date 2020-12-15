@@ -49,6 +49,14 @@ function draw() {
     me.drawdeer();
     me.moveMe();
     wolfs();
+  } else if (stage==6){
+    stagesix();
+    me.drawdeer();
+    me.moveMe();
+  }else if (stage==7){
+    stageseven();
+    me.drawdeer();
+    me.moveMe();
   }
   }
 
@@ -171,6 +179,14 @@ if(this.x>= 0
 
   stage=5
 }
+getKeypt3() {
+  if(this.x >= 400
+    && this.x <= 600
+    && this.y >= 300
+    && this.y <= 600) {
+
+    stage = 7;
+  }
 }
  }
  class Particle1 {
