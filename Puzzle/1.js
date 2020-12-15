@@ -8,6 +8,7 @@ particles2 = [];
 function preload() {
   deer = loadImage('capture.png');
     song= loadSound("music.mp3");
+    wolf= loadImage('wolf.png');
 }
 
 function setup() {
@@ -387,6 +388,45 @@ ellipse(450,550,15,25)
   rect(465, 540, 75, 15)
   rect(480, 555, 15, 25)
   rect(510, 555, 15, 25)
+
+}
+function stagesix(){
+  let leaf = color(120, 143, 126);
+  let leaf2 = color(140, 143, 120)
+  let leaf3 = color(156, 129, 134)
+  let leaf4 = color(133, 134, 148)
+  let leaf5 = color(158, 149, 134)
+  let leaf6 = color(111, 135, 131)
+let trunk = color(105, 73, 55);
+  let coo = color(179, 179, 179)
+  background(54, 85, 112);
+ tree(20,305,110, 80,trunk,leaf);
+  tree(110,310,110, 60,trunk,leaf2);
+  tree(200,330,110, 20,trunk,leaf4);
+  tree(290,360,110, 200,trunk,leaf);
+  tree(380,320,110, 80,trunk,leaf3);
+  tree(470,290,110, 80,trunk,leaf6);
+  tree(560,335,110, 80,trunk,leaf5);
+  fill(65, 117, 50);
+  rect(0,570,600,30);
+  fill(1, 96, 128)
+  rect(200,570,300,30);
+  fill(255, 255, 255);
+  cloud(30,40,"ye;;lo")
+  cloud(100,80,coo)
+  cloud(170,40,coo)
+  cloud(240,80,coo)
+  cloud(310,40,coo)
+  cloud(380, 80,coo)
+  cloud(450,40,coo)
+  cloud(520,80,coo)
+  cloud(590, 40, coo)
+  textFont('Tahoma')
+  textSize(29.5)
+  fill('red')
+  text("YOU WERE EATEN BY THE WOLF.",1,150)
+  textSize(50)
+  text("GAME OVER...",150,200)
 }
 
  function keyPressed(){
