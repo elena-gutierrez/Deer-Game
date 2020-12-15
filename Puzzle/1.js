@@ -1,6 +1,7 @@
 
 let me;
 let deer;
+let wolf;
 var stage;
 var song;
 particles1 = [];
@@ -17,6 +18,7 @@ function setup() {
 
 stage=1;
   loadImage('capture.png');
+  loadImage('wolf.png');
     me = new Avatar(width/2, 500, 3);
 
 }
@@ -46,6 +48,7 @@ function draw() {
     stagefive();
     me.drawdeer();
     me.moveMe();
+    wolf();
   }
   }
 
@@ -88,11 +91,9 @@ function draw() {
   text(s, 50, 100, 500, 500); // Text wraps within text box
 
   }
-  function wolf(x,y){
-    loadImage('wolf.png')
-
+  function wolf(){
+    image(wolf, 100,100)
   }
-
   function cloud(x,y,somecolor) {
     strokeWeight(0)
     ellipse(x,y,40)
@@ -392,7 +393,7 @@ ellipse(450,550,15,25)
   rect(465, 540, 75, 15)
   rect(480, 555, 15, 25)
   rect(510, 555, 15, 25)
-  drawwolf(300,500)
+
 }
 function stagesix(){
   let leaf = color(120, 143, 126);
