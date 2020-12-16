@@ -11,6 +11,7 @@ function preload() {
     song= loadSound("music.mp3");
     wolf= loadImage('wolf.png');
     jingle=loadSound("jingle.wav")
+    snarl=loadSound("snarl.wav")
 }
 
 function setup() {
@@ -197,7 +198,7 @@ getWolf1(){
   && this.x<=400
   && this.y>=340
   && this.y<=600){
-
+snarl.play()
     stage = 6;
   }
 }
