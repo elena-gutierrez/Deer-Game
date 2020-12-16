@@ -463,9 +463,11 @@ let trunk = color(105, 73, 55);
   textFont('Tahoma')
   textSize(29.5)
   fill('red')
-  text("YOU WERE EATEN BY THE WOLF.",1,150)
+  text("YOU WERE EATEN BY THE WOLF.",80,150)
   textSize(50)
   text("GAME OVER...",150,200)
+  textSize(18)
+  text("(PRESS 1 TO PLAY AGAIN)",200,230)
 }
 function stageseven(){
   let leaf = color(125, 209, 117);
