@@ -49,6 +49,7 @@ function draw() {
     me.drawdeer();
     me.moveMe();
     wolfs();
+    me.getKeypt3();
   } else if (stage==6){
     stagesix();
     me.drawdeer();
@@ -487,11 +488,13 @@ let trunk = color(161, 111, 84);
   cloud(520,80,coo)
   cloud(590, 40, coo)
   textFont('Tahoma')
-  textSize(29.5)
+  textSize(25)
   fill('white')
-  text("YOU MADE IT BACK TO YOUR HERD!",1,150)
+  text("YOU MADE IT BACK TO YOUR HERD!",90,150)
   textSize(50)
-  text("THANKS FOR PLAYING :)",150,200)
+  text("THANKS FOR PLAYING",50,200)
+  textSize(18)
+  text("(PRESS 1 TO PLAY AGAIN)",210,230)
 }
 
  function keyPressed(){
