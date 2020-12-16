@@ -10,6 +10,7 @@ function preload() {
   deer = loadImage('capture.png');
     song= loadSound("music.mp3");
     wolf= loadImage('wolf.png');
+    jingle=loadSound("jingle.wav")
 }
 
 function setup() {
@@ -168,7 +169,7 @@ class Avatar {
       && this.x <= 600
       && this.y >= 300
       && this.y <= 600) {
-
+      jingle.play()
       stage = 2;
     }
   }
@@ -178,7 +179,7 @@ if(this.x>= 0
 && this.x<= 100
 && this.y <=500
 && this.y <=600){
-
+jingle.play()
   stage=5
 }
 }
@@ -187,7 +188,7 @@ getKeypt3() {
     && this.x <= 600
     && this.y >= 300
     && this.y <= 600) {
-
+jingle.play()
     stage = 7;
   }
 }
