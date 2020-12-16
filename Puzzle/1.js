@@ -186,7 +186,7 @@ jingle.play()
 getKeypt3() {
   if(this.x >= 400
     && this.x <= 600
-    && this.y >= 300
+    && this.y >= 450
     && this.y <= 600) {
 jingle.play()
     stage = 7;
@@ -195,7 +195,7 @@ jingle.play()
 getWolf1(){
   if(this.x>=250
   && this.x<=400
-  && this.y>=350
+  && this.y>=340
   && this.y<=600){
 
     stage = 6;
