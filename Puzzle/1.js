@@ -50,6 +50,7 @@ function draw() {
     me.moveMe();
     wolfs();
     me.getKeypt3();
+    me.getWolf1();
   } else if (stage==6){
     stagesix();
     me.drawdeer();
@@ -190,6 +191,15 @@ getKeypt3() {
     stage = 7;
   }
 }
+getWolf1(){
+  if(this.x>=250
+  && this.x<=400
+  && this.y>=350
+  && this.y<=600){
+
+    stage = 6;
+  }
+}
 }
 
  class Particle1 {
@@ -321,7 +331,7 @@ getKeypt3() {
    fill(237, 229, 0)
    strokeWeight(2)
  ellipse(50, 550, 35, 45);
-   fill(121, 192, 252)
+   fill(161, 111, 84)
  ellipse(50,550,15,25)
    fill(237, 229, 0)
    rect(65, 540, 75, 15)
