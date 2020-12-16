@@ -16,8 +16,7 @@ function preload() {
 
 function setup() {
   createCanvas(600, 600);
-
-
+song.loop()
 stage=1;
   loadImage('capture.png');
   loadImage('wolf.png');
